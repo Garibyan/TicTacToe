@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Armen_Garibyan_Midterm</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="review">Review</string>
+    <string name="feedback">FeedBack</string>
+    <string name="send_btn">Send</string>
+    <string name="validation_passed">Validation Passed</string>
+    <string name="validation_didnot_passed">Validation Did Not Passed</string>
+</resources>

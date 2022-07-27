@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutBg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        style="@style/layout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btnNull"
+            style="@style/button"
+            android:text="0"
+            app:cornerRadius="25dp"/>
+
+        <Button
+            android:id="@+id/btnPoint"
+            style="@style/button"
+            android:text="."
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/button"
+            android:text="Cl"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnEquels"
+            style="@style/button"
+            android:backgroundTint="@color/white"
+            android:text="="
+            android:textColor="@color/black"
+            app:cornerRadius="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        style="@style/layout"
+        app:layout_constraintBottom_toTopOf="@+id/firstLayout">
+
+        <Button
+            android:id="@+id/btnOne"
+            style="@style/button"
+            android:text="1"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            style="@style/button"
+            android:text="2"
+            app:cornerRadius="25dp" />
+
+
+        <Button
+            android:id="@+id/btnThree"
+            style="@style/button"
+            android:text="3"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            style="@style/operatorButton"
+            android:text="+"
+            app:cornerRadius="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        style="@style/layout"
+        app:layout_constraintBottom_toTopOf="@+id/secondLayout">
+
+        <Button
+            android:id="@+id/btnFour"
+            style="@style/button"
+            android:text="4"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnFive"
+            style="@style/button"
+            android:text="5"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnSix"
+            style="@style/button"
+            android:text="6"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            style="@style/operatorButton"
+            android:text="="
+            app:cornerRadius="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/FourthLayout"
+        style="@style/layout"
+        app:layout_constraintBottom_toTopOf="@+id/thirdLayout">
+
+        <Button
+            android:id="@+id/btnSeven"
+            style="@style/button"
+            android:text="7"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnEight"
+            style="@style/button"
+            android:text="8"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnNine"
+            style="@style/button"
+            android:text="9"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnMinuDevive"
+            style="@style/operatorButton"
+            android:text="/"
+            app:cornerRadius="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fifthLayout"
+        style="@style/layout"
+        app:layout_constraintBottom_toTopOf="@+id/FourthLayout">
+
+        <Button
+            android:id="@+id/btnClean"
+            style="@style/operatorButton"
+            android:backgroundTint="@color/green"
+            android:text="AC"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnXz"
+            style="@style/operatorButton"
+            android:text="XZ"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnDegree"
+            style="@style/operatorButton"
+            android:text="^"
+            app:cornerRadius="25dp" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            style="@style/operatorButton"
+            android:text="*"
+            app:cornerRadius="25dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:text="464"
+        android:textAlignment="textEnd"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@id/fifthLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

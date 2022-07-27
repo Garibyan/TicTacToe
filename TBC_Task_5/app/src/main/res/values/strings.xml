@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TBC_Task_5</string>
+    <string name="login_failed">Login failed</string>
+    <string name="successful_login">Successfully Logged In</string>
+    <string name="successful_signup">Successfully Singed Up</string>
+    <string name="signup_failed">Singed Up Failed!</string>
+    <string name="blank_fields">Email and Password can not be blank</string>
+    <string name="privacy_policy">By signing up, you agree to Photo’s <a href="https://www.google.com/">Terms of Service</a> and <a href="https://www.google.com/">Privacy Policy</a></string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="password">Password</string>
+    <string name="next">NEXT</string>
+    <string name="log_in_btn">LOG IN</string>
+    <string name="register_btn">REGISTER</string>
+    <string name="log_in">Log In</string>
+    <string name="autors_name">Armen Garibyan</string>
+    <string name="autors_link">\@armen_garibyan</string>
+    <string name="successful_update">Successfully updated profile</string>
+    <string name="invalid_email">Unvalid Email Address </string>
+    <string name="invalid_password">Unvalid Password </string>
+</resources>

@@ -28,17 +28,17 @@ class MainFragment : Fragment() {
             findNavController().navigate(action)
         }
 
-//        binding!!.btn4x4.setOnClickListener {
-//            val action = MainFragmentDirections.actionMainFragmentToGameFragment(4)
-//            findNavController().navigate(action)
-//
-//        }
-//
-//        binding!!.btn5x5.setOnClickListener {
-//            val action = MainFragmentDirections.actionMainFragmentToGameFragment(5)
-//            findNavController().navigate(action)
-//
-//        }
+        binding!!.btn4x4.setOnClickListener {
+            val action = MainFragmentDirections.actionMainFragmentToGameFragment(4)
+            findNavController().navigate(action)
+
+        }
+
+        binding!!.btn5x5.setOnClickListener {
+            val action = MainFragmentDirections.actionMainFragmentToGameFragment(5)
+            findNavController().navigate(action)
+
+        }
 
     }
 }
